@@ -29,6 +29,50 @@
     </div>
   </div>
 
+  <div class="container my-4">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-light">
+      <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
+        <h4 class="mb-3">Zanechte kontaktní udaje</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Jmeno</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Pavel" value="" required="">
+              <div class="invalid-feedback">
+                err
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Prijmeni</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Novak" value="" required="">
+              <div class="invalid-feedback">
+                err
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="pavel.novak@example.com">
+              <div class="invalid-feedback">
+                err
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Adresa</label>
+              <input type="text" class="form-control" id="address" placeholder="Jecna 30, Praha 2" required="">
+              <div class="invalid-feedback">
+                err
+              </div>
+            </div>
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
   <div class="container-fluid fixed-bottom bg-dark">
     <footer class="my-4 align-items-center">
       <p class="text-center text-white">Copyright © Miloš Tesař C3b, 2022</p>
